@@ -6,7 +6,7 @@
 	console.log("do stuff");
 	setTimeout(function(){
 		document.body.style.background = "red";
-		parent.postMessage(window.location.search, "*");
+		parent.postMessage(window.location, "*");
 	}, 1500)
 	// window.close();
 </script>
