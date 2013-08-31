@@ -6,7 +6,7 @@
 	console.log("do stuff");
 	setTimeout(function(){
 		document.body.style.background = "red";
-		parent.postMessage("oauth bitches", "*");
+		parent.postMessage(window.location.search, "*");
 	}, 1500)
 	// window.close();
 </script>
